@@ -37,3 +37,50 @@
 .px-6 {
   padding-left: 8rem !important;
 }
+
+.fa-icon {
+  background: url('../img/logo_adobe_express.svg');
+  height: 21px;
+  width: 22px;
+  display: block;
+}
+
+.mystore-icon{
+padding-top: 16px;
+padding-left: 16px;
+}
+
+.social-icons{
+display: flex;
+}
+
+
+
+/* Child Text Container */
+.divhover{
+
+  position: absolute;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear; 
+  transition: visibility 0s, opacity 0.5s linear;
+  font-size: 15px;
+  padding: 5px;
+  
+
+}
+
+/* Hover on Parent Container */
+.mystore-icon:hover{
+  cursor: pointer;
+}
+
+.mystore-icon:hover .divhover{
+  visibility: visible;
+  opacity: 0.7; 
+  line-height: 20px;
+  margin-top: 20px;
+}
