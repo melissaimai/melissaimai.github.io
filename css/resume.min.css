@@ -156,6 +156,12 @@ section.resume-section .resume-item .resume-date {
   section.resume-section .resume-item .resume-date {
     min-width: 18rem
   }
+
+  .pt-45,
+  .py-45 {
+    padding-top: 2rem;
+  }
+
 }
 
 @media (min-width:992px) {
@@ -264,9 +270,4 @@ a:hover {
 
 .font-lead {
   font-size: 1.15rem;
-}
-
-.pt-45,
-.py-45 {
-  padding-top: 2rem !important;
 }
