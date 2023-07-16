@@ -78,6 +78,10 @@ p.lead {
   color: #bd5d38
 }
 
+.dev-icons .list-inline-item {
+  position: relative;
+}
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: .05rem;
@@ -251,6 +255,18 @@ a:hover {
   margin-top: 20px;
 }
 
+.dev-icons .list-inline-item:hover .divhover {
+  visibility: visible;
+  opacity: 0.7;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
 .font-lead {
   font-size: 1.15rem;
+}
+
+.pt-45,
+.py-45 {
+  padding-top: 2rem !important;
 }
