@@ -225,6 +225,8 @@ a:hover {
   position: relative;
 }
 
+
+
 .social-icons {
   display: flex;
 }
@@ -255,6 +257,13 @@ a:hover {
 }
 
 .mystore-icon:hover .divhover {
+  visibility: visible;
+  opacity: 0.7;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.game-icon:hover .divhover {
   visibility: visible;
   opacity: 0.7;
   line-height: 20px;
